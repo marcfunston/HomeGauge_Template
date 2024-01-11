@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="5">
+	<tCreatedBy>Marc Funston</tCreatedBy>
+	<tLastModBy>Marc Funston</tLastModBy>
+	<tLastMod>2024/01/10 20:53:48</tLastMod>
+	<SameSummariesItemized>1</SameSummariesItemized>
+	<SingleSummarySelection>0</SingleSummarySelection>
+	<tFailMsg>Re-inspected *date*&lt;font color="#ff0000"&gt;
+ *Fail-comments*.&lt;/font&gt;</tFailMsg>
+	<tDesc>This template uses column headers or ratings</tDesc>
+	<cons>
+		<con>Also</con>
+	</cons>
+	<st>
+		<stKey>Element st</stKey>
+		<stTS>2024/01/08 12:00:00</stTS>
+		<stVal>Inspector observed that ... It is recommended that it is repaired by a qualified RV technician.</stVal>
+	</st>
+	<com id="C-00000000-000A-0000-0000-00000000000A">
+		<comName>Standard com</comName>
+		<comText>Inspector observed that ... It is recommended that it is repaired by a qualified RV technician.</comText>
+		<comTS>2024/01/08 12:00:00</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<cat>
+		<catName>Standard cat</catName>
+		<catCID>C-00000000-000A-0000-0000-00000000000A</catCID>
+		<cat>
+			<catName>Element B</catName>
+			<catCID>C-00000000-000A-0000-0000-00000000000A</catCID>
+		</cat>
+	</cat>
+	<sm id="SM-5B7CC4B8-2A0A-4BCD-B567-65D48B429EB9">
+		<smName>New Style And Material</smName>
+		<smOpt>
+			<smVal>Add</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Add</smVal>
+		</smOpt>
+		<smInfoName>More Information</smInfoName>
+	</sm>
+	<sm id="SM-5FDF2255-855B-4B9D-828C-B740C861300C">
+		<smName>New</smName>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<sm id="SM-62C479FC-F3F9-4B85-A65A-DE69646A3CB2">
+		<smName>New Styles and Materials</smName>
+		<smOpt>
+			<smVal>Blah</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<sm id="SM-F8295B53-E91A-4350-8F92-7BD10DE40187">
+		<smName>New Styles and Materials</smName>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<ii id="II-169459A7-139F-4254-94E7-DC8FF23AE41D">
+		<iiText>New Sub Section</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<ii id="II-D891A94D-C4AD-4D46-8619-EAC04E3D2E69">
+		<iiText>New Element</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<ii id="II-EC88E516-F41E-44B6-9192-EAE6637CBD52">
+		<iiText>New Section</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<ii id="II-FBBD7EE6-14EB-4DC3-AB52-C3F88ABE43D7">
+		<iiText>New Sub Section</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<colsingleSelection>0</colsingleSelection>
+	<genInfo>
+	</genInfo>
+	<picInfo>
+	</picInfo>
+	<picLabelInfo>
+	</picLabelInfo>
+	<picSSMergeInfo>
+	</picSSMergeInfo>
+	<workscopeInfo>
+	</workscopeInfo>
+	<secC name="Base Inspection Template 1">
+		<sec name="Section One">
+			<colsingleSelection>1</colsingleSelection>
+			<colHeadOR>
+				<collName>Exclude</collName>
+				<colsName>X</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>1</colex>
+				<colshow>0</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<secRe>1</secRe>
+			<secIIID>II-D891A94D-C4AD-4D46-8619-EAC04E3D2E69</secIIID>
+			<iiSMID>SM-5B7CC4B8-2A0A-4BCD-B567-65D48B429EB9</iiSMID>
+		</sec>
+		<sec name="Section Two">
+			<colsingleSelection>1</colsingleSelection>
+			<colHeadOR>
+				<collName>Acceptable</collName>
+				<colsName>A</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Fair</collName>
+				<colsName>F</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-8DE595E7-60D9-4416-8315-2F403256E6DA</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Poor</collName>
+				<colsName>P</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-0AA46D99-BAEB-4E48-83DB-322BF81F6180</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Not Inspected</collName>
+				<colsName>NI</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Not Present</collName>
+				<colsName>NP</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Exclude</collName>
+				<colsName>X</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>1</colex>
+				<colshow>0</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<secRe>2</secRe>
+			<secReName>Sub Section One</secReName>
+			<secReName>Sub Section Two</secReName>
+			<secIIID>II-FBBD7EE6-14EB-4DC3-AB52-C3F88ABE43D7</secIIID>
+			<iiSMID>SM-F8295B53-E91A-4350-8F92-7BD10DE40187</iiSMID>
+		</sec>
+	</secC>
+	<secC name="Base Inspection Template 2">
+		<sec name="Section One">
+			<colsingleSelection>1</colsingleSelection>
+			<colHeadOR>
+				<collName>Exclude</collName>
+				<colsName>X</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>1</colex>
+				<colshow>0</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<secRe>1</secRe>
+			<secIIID>II-EC88E516-F41E-44B6-9192-EAE6637CBD52</secIIID>
+			<iiSMID>SM-62C479FC-F3F9-4B85-A65A-DE69646A3CB2</iiSMID>
+		</sec>
+		<sec name="Section Two">
+			<colsingleSelection>1</colsingleSelection>
+			<colHeadOR>
+				<collName>Acceptable</collName>
+				<colsName>A</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Fair</collName>
+				<colsName>F</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-8DE595E7-60D9-4416-8315-2F403256E6DA</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Poor</collName>
+				<colsName>P</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-0AA46D99-BAEB-4E48-83DB-322BF81F6180</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Not Inspected</collName>
+				<colsName>NI</colsName>
+				<colsendToSum>1</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colsumID>SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B</colsumID>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Not Present</collName>
+				<colsName>NP</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>0</colundoSum>
+				<colex>0</colex>
+				<colshow>1</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<colHeadOR>
+				<collName>Exclude</collName>
+				<colsName>X</colsName>
+				<colsendToSum>0</colsendToSum>
+				<colundoSum>1</colundoSum>
+				<colex>1</colex>
+				<colshow>0</colshow>
+				<colcolor>#FF0033</colcolor>
+			</colHeadOR>
+			<secRe>2</secRe>
+			<secReName>Sub Section One</secReName>
+			<secReName>Sub Section Two</secReName>
+			<secIIID>II-169459A7-139F-4254-94E7-DC8FF23AE41D</secIIID>
+			<iiSMID>SM-5FDF2255-855B-4B9D-828C-B740C861300C</iiSMID>
+		</sec>
+	</secC>
+	<atGen>
+		<atFN>Blank</atFN>
+		<atDesc>Blank</atDesc>
+	</atGen>
+	<sum id="SUM-43C4F876-BB33-4855-A610-E509123315E7">
+		<sumName>LIFE SAFETY ISSUE</sumName>
+		<sumAbbrev>LS</sumAbbrev>
+		<sumICID>C-00000000-000A-0000-0000-00000000000A</sumICID>
+		<SumBIcon>1</SumBIcon>
+		<SumBColor>1</SumBColor>
+		<SumColor>#FF0033</SumColor>
+		<SumIcon>C:\Users\NRVIA Training\Documents\HomeGauge\Logos\safety-lg3.gif</SumIcon>
+	</sum>
+	<sum id="SUM-0AA46D99-BAEB-4E48-83DB-322BF81F6180">
+		<sumName>MAJOR ISSUE</sumName>
+		<sumAbbrev>MA</sumAbbrev>
+		<sumICID>C-00000000-000A-0000-0000-00000000000A</sumICID>
+		<SumBIcon>1</SumBIcon>
+		<SumBColor>1</SumBColor>
+		<SumColor>#339966</SumColor>
+		<SumIcon>C:\Users\hmrvi\Documents\HomeGauge\Logos\small green dollar sign2.jpg</SumIcon>
+	</sum>
+	<sum id="SUM-8DE595E7-60D9-4416-8315-2F403256E6DA">
+		<sumName>MINOR ISSUE</sumName>
+		<sumAbbrev>MI</sumAbbrev>
+		<sumICID>C-00000000-000A-0000-0000-00000000000A</sumICID>
+		<SumBIcon>1</SumBIcon>
+		<SumBColor>1</SumBColor>
+		<SumColor>#3366FF</SumColor>
+		<SumIcon>C:\Users\NRVIA Training\Documents\HomeGauge\Logos\repair.gif</SumIcon>
+	</sum>
+	<sum id="SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B">
+		<sumName>NOTICE / COMMENT</sumName>
+		<sumAbbrev>NC</sumAbbrev>
+		<sumICID>C-00000000-000A-0000-0000-00000000000A</sumICID>
+		<SumBIcon>1</SumBIcon>
+		<SumBColor>1</SumBColor>
+		<SumColor>#FF6600</SumColor>
+		<SumIcon>C:\Users\NRVIA Training\Documents\HomeGauge\Logos\investigate1.gif</SumIcon>
+	</sum>
+</template>
