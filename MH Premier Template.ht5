@@ -2,7 +2,7 @@
 <template version="5">
 	<tCreatedBy>Marc Funston</tCreatedBy>
 	<tLastModBy>Marc Funston</tLastModBy>
-	<tLastMod>2024/01/12 12:59:02</tLastMod>
+	<tLastMod>2024/01/12 13:19:17</tLastMod>
 	<SameSummariesItemized>1</SameSummariesItemized>
 	<SingleSummarySelection>0</SingleSummarySelection>
 	<tFailMsg>Re-inspected *date*&lt;font color="#ff0000"&gt;
@@ -20,6 +20,53 @@
 		<comName>Standard com</comName>
 		<comText>Inspector observed that ... It is recommended that it is repaired by a qualified RV technician.</comText>
 		<comTS>2024/01/08 12:00:00</comTS>
+		<comAuto>1</comAuto>
+	</com>
+		<com id="C-CCCC54AF-50AC-4BD5-880D-7DD8CAA9B59A">
+		<comName>VIN</comName>
+		<comText>Manufacturer's VIN Data Plate Photo</comText>
+		<comTS>2021/01/05 15:51:23</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-00884ED2-79C4-489A-8614-6A04FA436C6D">
+		<comName>RVIA</comName>
+		<comText>RVIA Seal Photo</comText>
+		<comTS>2021/01/05 15:51:46</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-D74BBC80-FB9C-4E59-93BB-44C8A83E6817">
+		<comName>INCOMPLETE</comName>
+		<comText>Incomplete Chassis VIN Data Plate Photo</comText>
+		<comTS>2018/03/30 16:39:23</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-8B69C30D-7613-4894-BED5-B7B2E0438D2B">
+		<comName>LICENSE</comName>
+		<comText>State License Plate Photo</comText>
+		<comTS>2021/01/05 15:55:50</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-8BCC2372-DBE0-4A08-B2BE-B30B2CA0FD02">
+		<comName>INSPECT</comName>
+		<comText>State Inspection Sticker Photo</comText>
+		<comTS>2020/06/18 12:50:44</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-052505C9-DCC1-4CF8-919E-FD877F56201C">
+		<comName>BUILD</comName>
+		<comText>Build Sheet Photo</comText>
+		<comTS>2016/11/06 13:40:51</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-90070E5E-9E3B-4BD6-BF67-B93B5AE9F3DF">
+		<comText>Owner Stated Comments: &lt;ol style="margin-top: 0mm; margin-bottom: 0mm; "&gt;&lt;li style="color: #010101;  "&gt;&amp;#160; &lt;/li&gt;&lt;/ol&gt;</comText>
+		<comTS>2021/01/05 15:53:10</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-45065A01-FA0A-4E89-9505-29CE39E0EF6C">
+		<comName>Weather</comName>
+		<comText>Weather the Day of the Inspection:</comText>
+		<comTS>2021/01/05 15:53:59</comTS>
 		<comAuto>1</comAuto>
 	</com>
 	<cat>
@@ -6320,6 +6367,14 @@
 &lt;p&gt;State &amp;amp; License Plate: If the unit has a license plate on it, what is the state it is from and what is the license plate number.&lt;/p&gt;
 &lt;p&gt;State Plate Current: If the unit has a license plate, is it current as of the date of inspection. &lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;BR&gt;</iiHelp>
+		<iiCID>C-CCCC54AF-50AC-4BD5-880D-7DD8CAA9B59A</iiCID>
+		<iiCID>C-00884ED2-79C4-489A-8614-6A04FA436C6D</iiCID>
+		<iiCID>C-D74BBC80-FB9C-4E59-93BB-44C8A83E6817</iiCID>
+		<iiCID>C-8B69C30D-7613-4894-BED5-B7B2E0438D2B</iiCID>
+		<iiCID>C-8BCC2372-DBE0-4A08-B2BE-B30B2CA0FD02</iiCID>
+		<iiCID>C-052505C9-DCC1-4CF8-919E-FD877F56201C</iiCID>
+		<iiCID>C-90070E5E-9E3B-4BD6-BF67-B93B5AE9F3DF</iiCID>
+		<iiCID>C-45065A01-FA0A-4E89-9505-29CE39E0EF6C</iiCID>
 	</ii>
 	<ii id="II-845A1A66-BED2-4A9B-855E-47D93819ADAE">
 		<iiText>Patio Operation</iiText>
@@ -7127,7 +7182,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D31D733E-9F87-4448-A830-12B774A6DB1E">
-		<iiText>Other Items</iiText>
+		<iiText>Other Item</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D382AAFC-5E39-4B52-A27E-A753C42E0900">
