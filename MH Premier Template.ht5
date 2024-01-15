@@ -2,7 +2,7 @@
 <template version="5">
 	<tCreatedBy>Marc Funston</tCreatedBy>
 	<tLastModBy>Marc Funston</tLastModBy>
-	<tLastMod>2024/01/15 10:01:06</tLastMod>
+	<tLastMod>2024/01/15 12:08:00</tLastMod>
 	<SameSummariesItemized>1</SameSummariesItemized>
 	<SingleSummarySelection>0</SingleSummarySelection>
 	<tFailMsg>Re-inspected *date*&lt;font color="#ff0000"&gt;
@@ -39,6 +39,12 @@
 		<comText>Note: Refrigerators need to be on for a minimum of 12 hours to be at full cooling condition. This inspection may not revel a problem if during the inspection the refrigerator was not on for the minimum recommended time.</comText>
 		<comTS>2024/01/15 08:55:46</comTS>
 	</com>
+	<com id="C-1A64AE9D-E2BC-4A3D-88D8-F3C8660DD5CF">
+		<comName>Refrigerator Cool</comName>
+		<comText>&lt;strong&gt;Note: Refrigerators need to be on for a minimum of 12 hours to be at full cooling condition. This inspection may not reveal a problem if during the inspection the refrigerator was not on for the minimum recommended time.&lt;/strong&gt;</comText>
+		<comTS>2024/01/15 11:58:55</comTS>
+		<comAuto>1</comAuto>
+	</com>
 	<com id="C-29160635-0248-43FD-8CAC-140876EEF509">
 		<comName>Comment Key</comName>
 		<comText>This time sensitive document was prepared for the client listed on the Cover Page of this report. Any reproduction, use, or resale of this document by individuals other than who is listed on the report cover page, or their assigns, is not supported by the inspector and company. Comment Key or Definition The following definitions of comment descriptions represent this inspection report. All comments by the inspector should be considered before purchasing this RV home. Any recommendations by the inspector to repair suggests further action by a qualified RV technician. All costs associated with repair or replacement of items and components identified in this report should be considered before purchasing this RV home.. Acceptable&amp;#160; (A) = A visually observed item, component or unit and if no other comments were made then it appeared to be performing its intended function with little or no deterioration visible. Fair (F) = The item or its components is not in need of immediate repair as it is performing its intended function but deterioration is visible. Some&amp;#160; may elect to repair or replace this item now while others may wait.&amp;#160; Poor (P) = The item, component or unit is not functioning as intended and replacement is recommended, or needs further action by a qualified RV technician. Not Inspected (NI)= The item, unit or component was not inspected, and no representations were made as to whether or not it was functioning as intended and a statement for the reason for not inspecting may be made. Not Present (NP) = This item, component or unit is not in this RV.br /&amp;amp;gt; NRVIA Standards of Practice Purpose, Scope and General Statements1 - The purpose of the Standards of Practice is to establish a uniform standard for the companies RV Inspector to inspect and report in an objective manner the conditions of a Recreational Vehicle and its components. 2 - The Standards describe the components, and systems included in an RV Inspection. 3 - The Standards apply to motorized and towable types of RVs as defined by the RV Industry. 4 - The Standards apply to a visual inspection of those areas, components and systems that are readily accessible to determine at the time of inspection that they are performing their intended function without regard to life expectancy. 5 - The purpose of the RV inspection is to identify visible and operational defects as permitted by the current conditions that in the judgment of the RV Inspector will adversely affect the function or integrity of the items, components and systems of the Recreational Vehicle. 6 - RV Inspections performed under the Standards of Practice are basically visual and rely upon the judgment, education and experience of the RV Inspector and are not intended to be technically exhaustive. 7 - RV inspections shall be performed on a calendar day which will allow compliance with the provisions of the NRVIA Standards of Practice. 8 - RV Inspections performed under the Standards shall not be construed as being a compliance inspection of any code, governmental regulation or manufacturer's installation instructions or procedures. In the event a law, statute or ordinance prohibits a procedure recommended in the Standards, the RV Inspector is relieved of the obligation to adhere to the prohibited part of the Standards. 9 - RV Inspections performed under the Standards are not an expressed, implied warranty or guarantee of adequacy, performance or useful life of any RV, any of its components or systems. 10 - Only those items specifically listed on the RV Inspection Report will be included in the RV Inspectors evaluation. 11 - The RV Inspector shall report any system or component included in the Standards of Practice which were present at the time of the RV Inspection but were NOT inspected and provide the reason they were not inspected. General Limitations and Exclusions 1 - RV Inspections performed under the companies Standards of Practice exclude any items concealed or not readily accessible to the RV Inspector. The RV Inspector is not required to move furniture, personal or stored items. Lifting floor covering, accessing interior walls and ceilings in which could damage or destroy the components or systems being evaluated is not part of the RV Inspection. 2 - The determination of the presence of damage caused by insects or water is only to be evaluated by observation with a statement being rendered by RV Inspector that is to make the client aware of the issue. 3 - Excluded from the Standards of Practice is the determination of indoor air quality of the RV and it's consequence of physical damage, toxicity, odors, waste products and noxiousness. 4 - The RV Inspection and report are based upon the visual observation of the existing conditions of the RV at the time of the RV Inspection. The report is not intended to be or construed as a guarantee, warranty or any form of insurance. The RV Inspector will not be responsible for any repairs or replacement with regard to the RV or its contents.5 - The RV Inspector is not required to enter any premises that visibly show a threat to the safety of the RV Inspector or others nor inspect any area or component that poses a danger to the RV Inspector or others. 6 - The NRVIA Certified RV Inspector inspected and reported on the RV items listed in this report and their condition during the RV Inspection. Any additional items of inspection were dependent upon any agreements that were made between the client and the RV Inspector.&lt;p&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;</comText>
@@ -56,16 +62,34 @@
 		<comTS>2021/01/05 15:53:59</comTS>
 		<comAuto>1</comAuto>
 	</com>
+	<com id="C-4826BA42-C823-4266-9236-52BB1456C2F0">
+		<comName>Delta T</comName>
+		<comText>&lt;strong&gt;Note: The Delta-T average acceptable performance range is 14 to 22 degrees F (-10 to -5 C). In high humidity areas the range may be lower (12 to 16 degrees F)(-11 to -9 C) and in desert areas, it may be higher (23 to 26 degrees F)(-5 to -3 C).&lt;/strong&gt;</comText>
+		<comTS>2024/01/15 12:05:22</comTS>
+		<comAuto>1</comAuto>
+	</com>
 	<com id="C-57955255-6B1D-4808-B561-955E60E1CB05">
 		<comName>Report Introduction</comName>
 		<comText>&lt;p align="center"&gt;&lt;font color="#ff0000"&gt;&lt;strong&gt;This time sensitive document was prepared for the client listed on the Cover Page of this report. Any reproduction, use, or resale of this document by individuals other than who is listed on the report cover page, or their assigns, is not supported by the inspector and company. &lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align="center"&gt;&lt;strong&gt;&lt;u&gt;Comment Key or Definition &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p align="center"&gt;The following definitions of comment descriptions represent this inspection report. All comments by the inspector should be considered before purchasing this RV home. Any recommendations by the inspector to repair suggests further action by a qualified RV technician. All costs associated with repair or replacement of items and components identified in this report should be considered before purchasing this RV home.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Acceptable&amp;#160; (A)&lt;/u&gt;&lt;/strong&gt; = A visually observed item, component or unit and if no other comments were made then it appeared to be performing its intended function with little or no deterioration visible. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Fair (F)&lt;/u&gt;&lt;/strong&gt; = The item or its components is not in need of immediate repair as it is performing its intended function but deterioration is visible. Some&amp;#160; may elect to repair or replace this item now while others may wait.&amp;#160; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Poor (P)&lt;/u&gt;&lt;/strong&gt; = The item, component or unit is not functioning as intended and replacement is recommended, or needs further action by a qualified RV technician. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Not Inspected (NI)&lt;/u&gt;&lt;/strong&gt; = The item, unit or component was not inspected, and no representations were made as to whether or not it was functioning as intended and a statement for the reason for not inspecting may be made. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Not Present (NP)&lt;/u&gt;&lt;/strong&gt; = This item, component or unit is not in this RV. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;NRVIA Standards of Practice &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Purpose, Scope and General Statements&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1 - The purpose of the Standards of Practice is to establish a uniform standard for the companies RV Inspector to inspect and report in an objective manner the conditions of a Recreational Vehicle and its components. &lt;/p&gt;&lt;p&gt;2 - The Standards describe the components, and systems included in an RV Inspection. &lt;/p&gt;&lt;p&gt;3 - The Standards apply to motorized and towable types of RVs as defined by the RV Industry. &lt;/p&gt;&lt;p&gt;4 - The Standards apply to a visual inspection of those areas, components and systems that are readily accessible to determine at the time of inspection that they are performing their intended function without regard to life expectancy. &lt;/p&gt;&lt;p&gt;5 - The purpose of the RV inspection is to identify visible and operational defects as permitted by the current conditions that in the judgment of the RV Inspector will adversely affect the function or integrity of the items, components and systems of the Recreational Vehicle. &lt;/p&gt;&lt;p&gt;6 - RV Inspections performed under the Standards of Practice are basically visual and rely upon the judgment, education and experience of the RV Inspector and are not intended to be technically exhaustive. &lt;/p&gt;&lt;p&gt;7 - RV inspections shall be performed on a calendar day which will allow compliance with the provisions of the NRVIA Standards of Practice. &lt;/p&gt;&lt;p&gt;8 - RV Inspections performed under the Standards shall not be construed as being a compliance inspection of any code, governmental regulation or manufacturer's installation instructions or procedures. In the event a law, statute or ordinance prohibits a procedure recommended in the Standards, the RV Inspector is relieved of the obligation to adhere to the prohibited part of the Standards. &lt;/p&gt;&lt;p&gt;9 - RV Inspections performed under the Standards are not an expressed, implied warranty or guarantee of adequacy, performance or useful life of any RV, any of its components or systems. &lt;/p&gt;&lt;p&gt;10 - Only those items specifically listed on the RV Inspection Report will be included in the RV Inspectors evaluation. &lt;/p&gt;&lt;p&gt;11 - The RV Inspector shall report any system or component included in the Standards of Practice which were present at the time of the RV Inspection but were NOT inspected and provide the reason they were not inspected. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;General Limitations and Exclusions &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1 - RV Inspections performed under the companies Standards of Practice exclude any items concealed or not readily accessible to the RV Inspector. The RV Inspector is not required to move furniture, personal or stored items. Lifting floor covering, accessing interior walls and ceilings in which could damage or destroy the components or systems being evaluated is not part of the RV Inspection. &lt;/p&gt;&lt;p&gt;2 - The determination of the presence of damage caused by insects or water is only to be evaluated by observation with a statement being rendered by RV Inspector that is to make the client aware of the issue. &lt;/p&gt;&lt;p&gt;3 - Excluded from the Standards of Practice is the determination of indoor air quality of the RV and it's consequence of physical damage, toxicity, odors, waste products and noxiousness. &lt;/p&gt;&lt;p&gt;4 - The RV Inspection and report are based upon the visual observation of the existing conditions of the RV at the time of the RV Inspection. The report is not intended to be or construed as a guarantee, warranty or any form of insurance. The RV Inspector will not be responsible for any repairs or replacement with regard to the RV or its contents.&lt;/p&gt;&lt;p&gt;5 - The RV Inspector is not required to enter any premises that visibly show a threat to the safety of the RV Inspector or others nor inspect any area or component that poses a danger to the RV Inspector or others. &lt;/p&gt;&lt;p&gt;6 - The NRVIA Certified RV Inspector inspected and reported on the RV items listed in this report and their condition during the RV Inspection. Any additional items of inspection were dependent upon any agreements that were made between the client and the RV Inspector.&lt;/p&gt;&lt;p&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;</comText>
 		<comTS>2024/01/15 09:29:50</comTS>
 		<comAuto>1</comAuto>
 	</com>
+	<com id="C-5C6AD00C-DDEC-4F29-AF79-7CD7269635D5">
+		<comName>water system</comName>
+		<comText>&lt;strong&gt;Note: Due to the inability to determine the age and quality of the water in the fresh water tank, the tank should be drained and sanitized before refilling for use.&lt;/strong&gt;&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note: Due to the types of materials and waste used or present in the tanks and depending on&amp;#160; previous maintenance, fresh and waste monitor sensor probes may perform inaccurately between applications due to build up.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note: The onboard in-line water filter will be visually inspected but the canister assembly will not removed to verify the presence of a filter to determine its condition at the time of the inspection.&lt;/strong&gt;</comText>
+		<comTS>2024/01/15 11:48:01</comTS>
+		<comAuto>1</comAuto>
+	</com>
 	<com id="C-79D10CD9-431C-4F30-AC7A-DA510D4CA4A6">
 		<comName>Notice / Comment</comName>
 		<comText>&lt;strong&gt;The following items indicate that the condition is a NOTEWORTHY COMMENT.&lt;/strong&gt;</comText>
 		<comTS>2024/01/15 09:57:09</comTS>
+		<comAuto>1</comAuto>
+	</com>
+	<com id="C-83458F4C-F9A3-466B-B06A-46C45CDA9CDE">
+		<comName>Detectors</comName>
+		<comText>&lt;strong&gt;Note: CO Detectors have an estimated service life of 5 to 7 years after which time it is recommended they be replaced.&lt;/strong&gt;&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note: LP Detectors have an estimated service life of 5 years after which time it is recommended they be replaced.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note: Smoke Detectors have an estimated service life of 5 to 10 years after which time it is recommended they be replaced.&lt;/strong&gt;</comText>
+		<comTS>2024/01/15 11:54:52</comTS>
 		<comAuto>1</comAuto>
 	</com>
 	<com id="C-857BAF8F-7B3B-4B3B-B690-2647432B7C91">
@@ -95,6 +119,12 @@
 		<comName>Water System</comName>
 		<comText>Note: Due to the inability to determine the age and quality of the water in the fresh tank, the tank should be drained and sanitized before refilling for use. Note: Due to the types of materials and waste used in the tanks and depending on previous maintenance , fresh and waste monitor sensor probes may perform inaccurately between applications due to build up. Note: The onboard in-line water filter will be visually inspected but the canister assembly will not be removed to verify the presence of a filter or to determine its condition at the time of the inspection.</comText>
 		<comTS>2024/01/15 08:56:09</comTS>
+	</com>
+	<com id="C-ADEDD8AD-8207-4F25-8D0C-CD5F1B1A6694">
+		<comName>Not Drive</comName>
+		<comText>&lt;strong&gt;Note: Due to insurance regulations, the motor home can NOT be driven by the inspector. Also due to the lack of clearance under the motor home, and safety concerns, the inspector will conduct the following visual inspections from the outer perimeter of the motor home. &lt;/strong&gt;</comText>
+		<comTS>2024/01/15 11:42:53</comTS>
+		<comAuto>1</comAuto>
 	</com>
 	<com id="C-CCCC54AF-50AC-4BD5-880D-7DD8CAA9B59A">
 		<comName>VIN</comName>
@@ -130,6 +160,13 @@
 		<comText>Note: CO Detectors have an estimated service life of 5 to 7 years after which time it is recommended they be replaced.</comText>
 		<comTS>2024/01/15 08:55:19</comTS>
 	</com>
+	<com id="C-F3A9C198-B57D-4B61-A71E-BED22DAEC662">
+		<comName>NTSB Note</comName>
+		<comText>&lt;strong&gt;Note: The National Transportation Safety Board (NTSB) and some tire manufactures are recommending that all tires older than 6 years should be replaced, regardless of their condition&lt;/strong&gt;</comText>
+		<comTS>2024/01/15 11:38:21</comTS>
+		<comAuto>1</comAuto>
+		<commentSumID>SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B</commentSumID>
+	</com>
 	<cat>
 		<catName>Interior</catName>
 		<catCID>C-00000000-000A-0000-0000-00000000000A</catCID>
@@ -157,6 +194,7 @@
 		<catName>Appliances - Other</catName>
 		<cat>
 			<catName>2a</catName>
+			<catCID>C-4826BA42-C823-4266-9236-52BB1456C2F0</catCID>
 		</cat>
 	</cat>
 	<cat>
@@ -176,6 +214,7 @@
 	</cat>
 	<cat>
 		<catName>Engine</catName>
+		<catCID>C-ADEDD8AD-8207-4F25-8D0C-CD5F1B1A6694</catCID>
 	</cat>
 	<cat>
 		<catName>Electrical - 120V and 12V</catName>
@@ -186,7 +225,8 @@
 	<cat>
 		<catName>Appliances - Kitchen</catName>
 		<cat>
-			<catName>1a</catName>
+			<catName>Refrigerator on</catName>
+			<catCID>C-1A64AE9D-E2BC-4A3D-88D8-F3C8660DD5CF</catCID>
 		</cat>
 	</cat>
 	<cat>
@@ -220,6 +260,7 @@
 	</cat>
 	<cat>
 		<catName>Propane Tank and Lines</catName>
+		<catCID>C-83458F4C-F9A3-466B-B06A-46C45CDA9CDE</catCID>
 	</cat>
 	<cat>
 		<catName>Roof Exterior</catName>
@@ -232,9 +273,11 @@
 	</cat>
 	<cat>
 		<catName>Water Systems</catName>
+		<catCID>C-5C6AD00C-DDEC-4F29-AF79-7CD7269635D5</catCID>
 	</cat>
 	<cat>
 		<catName>Wheel Assemblies - MH</catName>
+		<catCID>C-F3A9C198-B57D-4B61-A71E-BED22DAEC662</catCID>
 	</cat>
 	<cat>
 		<catName>Windshield</catName>
@@ -8158,6 +8201,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-F3A9C198-B57D-4B61-A71E-BED22DAEC662</secIntroID>
 			<secRe>7</secRe>
 			<secReName>Front Wheel Assembly - Curbside</secReName>
 			<secReName>Drive Axle Wheel Assembly - Curbside Outsideside</secReName>
@@ -8317,6 +8361,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-ADEDD8AD-8207-4F25-8D0C-CD5F1B1A6694</secIntroID>
 			<secRe>1</secRe>
 			<secIIID>II-DECDABF5-10F8-4D76-837F-CD55F9D80B8B</secIIID>
 			<secIIID>II-85293829-EA73-4F46-8CDD-DB879C599E84</secIIID>
@@ -8698,6 +8743,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-5C6AD00C-DDEC-4F29-AF79-7CD7269635D5</secIntroID>
 			<secRe>1</secRe>
 			<secIIID>II-6E5DE1C7-38DB-4762-A0D4-DADB8C52EDAF</secIIID>
 			<secIIID>II-0B03F38E-39B0-49FE-848D-CF8D4EC1BD76</secIIID>
@@ -8798,6 +8844,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-83458F4C-F9A3-466B-B06A-46C45CDA9CDE</secIntroID>
 			<secRe>1</secRe>
 			<secIIID>II-5071B413-E4EF-42F8-9CD2-1B28016911E0</secIIID>
 			<secIIID>II-40D1BC6D-2F78-427B-8525-FB4BF1BC942C</secIIID>
@@ -8897,6 +8944,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-1A64AE9D-E2BC-4A3D-88D8-F3C8660DD5CF</secIntroID>
 			<secRe>1</secRe>
 			<secIIID>II-529703BD-417D-44FC-91E6-22C18C1966A3</secIIID>
 			<secIIID>II-550E3639-BB59-4422-9778-2E641AA2EE72</secIIID>
@@ -9110,6 +9158,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-4826BA42-C823-4266-9236-52BB1456C2F0</secIntroID>
 			<secRe>3</secRe>
 			<secReName>Front Air Conditioner</secReName>
 			<secReName>Center Air Conditioner</secReName>
@@ -9517,6 +9566,7 @@
 				<colshow>0</colshow>
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
+			<secIntroID>C-1A64AE9D-E2BC-4A3D-88D8-F3C8660DD5CF</secIntroID>
 			<secRe>1</secRe>
 			<secReName>Refrigerator</secReName>
 			<secIIID>II-529703BD-417D-44FC-91E6-22C18C1966A3</secIIID>
