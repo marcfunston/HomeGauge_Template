@@ -7625,7 +7625,7 @@
 	</picSSMergeInfo>
 	<workscopeInfo>
 	</workscopeInfo>
-	<secC name="Class B Premier RV Inspection Template">
+	<secC name="Class B Premier Inspection">
 		<sec name="Vehicle Information">
 			<colsingleSelection>1</colsingleSelection>
 			<colHeadOR>
@@ -8099,7 +8099,7 @@
 			<secIntroID>C-F3A9C198-B57D-4B61-A71E-BED22DAEC662</secIntroID>
 			<secRe>7</secRe>
 			<secReName>Front Wheel Assembly - Curbside</secReName>
-			<secReName>Drive Axle Wheel Assembly - Curbside Outsideside</secReName>
+			<secReName>Drive Axle Wheel Assembly - Curbside Outside</secReName>
 			<secReName>Drive Axle Wheel Assembly - Curbside Inside</secReName>
 			<secReName>Drive Axle Wheel Assembly - Streetside Inside</secReName>
 			<secReName>Drive Axle Wheel Assembly - Streetside Outside</secReName>
