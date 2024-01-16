@@ -2,7 +2,7 @@
 <template version="5">
 	<tCreatedBy>Marc Funston</tCreatedBy>
 	<tLastModBy>Marc Funston</tLastModBy>
-	<tLastMod>2024/01/16 10:37:35</tLastMod>
+	<tLastMod>2024/01/16 11:16:00</tLastMod>
 	<SameSummariesItemized>1</SameSummariesItemized>
 	<SingleSummarySelection>0</SingleSummarySelection>
 	<tFailMsg>Re-inspected *date*&lt;font color="#ff0000"&gt;
@@ -492,7 +492,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-0AA753AF-FA1E-481F-8881-3072EE2BC6C6">
-		<smName>Frame - Any Visible Signs of Bent or Damage Components?</smName>
+		<smName>Chassis and Frame - Any Visible Signs of Bent or Damage Components?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -806,6 +806,19 @@
 		</smOpt>
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
+	<sm id="SM-1B3A4E71-E058-43C5-8B6E-AC6DCF3664CF">
+		<smName>5th Wheel - Front Landing Gear</smName>
+		<smOpt>
+			<smVal>Hydraulic</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Electric</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Manual</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-1C58E84C-A89D-4BF5-AE65-F8F5F4E2295B">
 		<smName>Oil Level on the Dipstick</smName>
 		<smOpt>
@@ -901,6 +914,19 @@
 		</smOpt>
 		<smInfoName>Serial #</smInfoName>
 	</sm>
+	<sm id="SM-2394BB22-AFBB-4338-A35B-4A5AF0369D91">
+		<smName>Travel Trailer - Weight Distribution System</smName>
+		<smOpt>
+			<smVal>Yes</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>No</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-25005A15-5D08-4B6B-8E66-E86DDA049E13">
 		<smName>12-Volt DC House Battery - Cables and Terminals Condition</smName>
 		<smOpt>
@@ -959,6 +985,22 @@
 		</smOpt>
 		<smOpt>
 			<smVal>Not Inspected</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<sm id="SM-28C231F6-B844-4761-A37D-76A0A0991512">
+		<smName>5th Wheel - Rear Stabilizing System</smName>
+		<smOpt>
+			<smVal>Hydraulic</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Electric</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Manual</smVal>
 		</smOpt>
 		<smOpt>
 			<smVal>Not Present</smVal>
@@ -2085,7 +2127,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-54A58EB2-9432-4A2F-ABA3-589AF4882B60">
-		<smName>Frame - Visible Signs of Scraping or Drag Damage?</smName>
+		<smName>Running Gear - Visible Signs of Scraping or Drag Damage?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -2433,24 +2475,25 @@
 		</smOpt>
 		<smInfoName>Date</smInfoName>
 	</sm>
+	<sm id="SM-62194BA8-EA42-4924-80DD-2CBCB5D18D11">
+		<smName>Travel Trailer - Safety Chains</smName>
+		<smOpt>
+			<smVal>Yes</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>No</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-622A792E-A19D-4E3E-8AAC-D267F90B6222">
-		<smName>Axle(s) Condition</smName>
+		<smName>Front Axle Weight Rating</smName>
 		<smOpt>
-			<smVal>Acceptable</smVal>
+			<smVal>Listed in lbs or kg</smVal>
 		</smOpt>
-		<smOpt>
-			<smVal>Fair</smVal>
-		</smOpt>
-		<smOpt>
-			<smVal>Poor</smVal>
-		</smOpt>
-		<smOpt>
-			<smVal>Not Inspected</smVal>
-		</smOpt>
-		<smOpt>
-			<smVal>Other</smVal>
-		</smOpt>
-		<smInfoName>Specify Other</smInfoName>
+		<smInfoName>Weight Rating</smInfoName>
 	</sm>
 	<sm id="SM-62DB2DC4-D345-46FE-A88A-70CD123DFBE7">
 		<smName>Other Items - (List)</smName>
@@ -2494,6 +2537,16 @@
 		</smOpt>
 		<smOpt>
 			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<sm id="SM-645768C9-BCE8-4D99-B674-03A2CEC086C5">
+		<smName>5th Wheel - Goose Neck Adapter</smName>
+		<smOpt>
+			<smVal>Yes</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>No</smVal>
 		</smOpt>
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
@@ -4140,6 +4193,19 @@
 		</smOpt>
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
+	<sm id="SM-A8ABB086-237A-4E8A-B57C-1BD9E103DFB8">
+		<smName>Travel Trailer - Tongue Jack</smName>
+		<smOpt>
+			<smVal>Electric</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Manual</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-A8C4A5B8-2744-4C14-B926-A8430DC5F6D7">
 		<smName>Awning Topper Length</smName>
 		<smOpt>
@@ -4148,7 +4214,7 @@
 		<smInfoName>Length In Feet</smInfoName>
 	</sm>
 	<sm id="SM-AAACE3E0-E713-4D05-8974-9D5015C653DB">
-		<smName>Frame - Any Visible Signs of Excessive Wear?</smName>
+		<smName>Chassis and Frame - Any Visible Signs of Excessive Wear?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4328,7 +4394,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-B4B6B6EF-13E5-4EC2-A27E-273500E0DC14">
-		<smName>Frame - Any Visible Signs of Damage from Tire Failure?</smName>
+		<smName>Running Gear - Any Visible Signs of Damage from Tire Failure?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4551,6 +4617,19 @@
 		</smOpt>
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
+	<sm id="SM-C3790916-2709-49DE-AEA3-0D05DCB7EEFB">
+		<smName>Travel Trailer - Stabilizer</smName>
+		<smOpt>
+			<smVal>Electric</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Manual</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-C3CFE2BE-ED9A-4DEE-8740-3C20FCEB7D0F">
 		<smName>Refrigerator - Location of Vent Panels</smName>
 		<smOpt>
@@ -4750,7 +4829,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-CC082DB6-B0BE-4FA7-AD6C-F4D476A3FE80">
-		<smName>Frame - Any Visible Signs of Excess Oil Present?</smName>
+		<smName>Chassis and Frame - Any Visible Signs of Excess Oil Present?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4835,7 +4914,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-D2396CB3-4361-4554-83BE-C4B062B5F548">
-		<smName>Frame - Any Visible Signs of Rust?</smName>
+		<smName>Chassis and Frame - Any Visible Signs of Rust?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4946,6 +5025,19 @@
 			<smVal>Other</smVal>
 		</smOpt>
 		<smInfoName>Other Hitch</smInfoName>
+	</sm>
+	<sm id="SM-D5429F9D-4DA3-48FD-BEEA-27C10875B3CE">
+		<smName>Travel Trailer - Sway Control System</smName>
+		<smOpt>
+			<smVal>Yes</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>No</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-D595E4F6-D80D-473B-B841-F1D2876EBFD5">
 		<smName>Generator - Transfer Switch</smName>
@@ -5208,6 +5300,19 @@
 		</smOpt>
 		<smInfoName>Enter Stop Time</smInfoName>
 	</sm>
+	<sm id="SM-E80D77A8-1CF1-498D-A1E4-76A14EEA6CE6">
+		<smName>5th Wheel - Pin Box</smName>
+		<smOpt>
+			<smVal>Fixed Pin for Swiveling</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>King Pin with Air Ride</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>King Pin</smVal>
+		</smOpt>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
 	<sm id="SM-E9D534FB-6CB3-4C51-AB7B-049D7B1D1D1D">
 		<smName>Exterior Wall Surface Type</smName>
 		<smOpt>
@@ -5401,7 +5506,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-F640921F-D8CA-41E0-93BB-A1423CE5FD05">
-		<smName>Frame - Any Visible Signs of Hydraulic Hose Leaks?</smName>
+		<smName>Running Gear - Any Visible Signs of Hydraulic Hose Leaks?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -5412,6 +5517,19 @@
 	</sm>
 	<sm id="SM-F8D16237-70D5-49A3-A304-DF4E87943792">
 		<smName>Condition of the Patio Screen Door</smName>
+		<smInfoName>Extra Info</smInfoName>
+	</sm>
+	<sm id="SM-F8F156BD-CFDC-4D3A-A6CD-7712B75C52C4">
+		<smName>Travel Trailer - Coupler Operational</smName>
+		<smOpt>
+			<smVal>Yes</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>No</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Present</smVal>
+		</smOpt>
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-FA21F9C5-E6EB-4FD9-AA1F-2B0049DB993D">
@@ -5446,9 +5564,6 @@
 	</sm>
 	<sm id="SM-FD05024A-0164-478A-84A4-BD3347898E15">
 		<smName>Number of Axles</smName>
-		<smOpt>
-			<smVal>One</smVal>
-		</smOpt>
 		<smOpt>
 			<smVal>Two</smVal>
 		</smOpt>
@@ -5572,6 +5687,10 @@
 	</ii>
 	<ii id="II-13448F80-FABB-4C0E-B6CC-4498865452D5">
 		<iiText>Carbon Monoxide Detector</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<ii id="II-14B0C574-6AE1-4555-B0FE-3FDFDE8E1016">
+		<iiText>Break Away Switch</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-14BE174B-57F2-4ECB-AF4A-0CF516A51E7C">
@@ -5884,11 +6003,15 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-3714E042-1A91-41B2-8D23-35943E89D732">
-		<iiText>Axle U-Bolt Condtion</iiText>
+		<iiText>Axle U-Bolts Condition</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-373725EA-9D89-4441-9205-A8E34A2B794C">
 		<iiText>Cable and Satellite TV Hookup Visually Acceptable?</iiText>
+		<iiHelp></iiHelp>
+	</ii>
+	<ii id="II-37E4752D-6FEB-4540-8BD2-4EFB68AED392">
+		<iiText>7-Pin Cord</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-383557D0-DB83-46AD-9BD6-AD79226BEACD">
@@ -5976,7 +6099,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-49864EDC-4462-4D31-AC27-F75ED143D360">
-		<iiText>Springs and Hangers Condition</iiText>
+		<iiText>Springs, Spring Hangers, Hanger Bolts Condition</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-4B52EE5D-DE92-48B5-9A4D-FAE8CDB5B06F">
@@ -7271,7 +7394,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D11C9126-0E96-4CF5-9815-1077FE87A321">
-		<iiText>Brake Function</iiText>
+		<iiText>Axle Condition</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D234FDBA-035B-4C77-8024-4879FDAFED1F">
@@ -7505,7 +7628,7 @@
 	</picSSMergeInfo>
 	<workscopeInfo>
 	</workscopeInfo>
-	<secC name="Towable Premier Level RV Inspection Template">
+	<secC name="Travel Trailer Premier Inspection">
 		<sec name="Vehicle Information">
 			<colsingleSelection>1</colsingleSelection>
 			<colHeadOR>
@@ -7761,8 +7884,8 @@
 			</colHeadOR>
 			<secRe>3</secRe>
 			<secReName>Main Entry Door</secReName>
-			<secReName>Driver Door</secReName>
-			<secReName>Passenger Door</secReName>
+			<secReName>Rear Entry Door</secReName>
+			<secReName>Emergency Door</secReName>
 			<secIIID>II-D382AAFC-5E39-4B52-A27E-A753C42E0900</secIIID>
 			<iiSMID>SM-C7F78FD5-6E7F-4D76-B4DF-D93FA85F86C2</iiSMID>
 			<iiSMID>SM-77FC0D52-17E7-4F94-B862-A0D7243205B5</iiSMID>
@@ -7992,12 +8115,12 @@
 			</colHeadOR>
 			<secIntroID>C-F3A9C198-B57D-4B61-A71E-BED22DAEC662</secIntroID>
 			<secRe>7</secRe>
-			<secReName>Curbside - Front Wheel Assembly</secReName>
-			<secReName>Curbside - Center Wheel Assembly</secReName>
-			<secReName>Curbside - Rear Wheel Assembly</secReName>
-			<secReName>Streetside - Rear Wheel Assembly</secReName>
-			<secReName>Streetside - Center Wheel Assembly</secReName>
-			<secReName>Streetside - Front Wheel Assembly</secReName>
+			<secReName>Curbside Front Wheel Assembly</secReName>
+			<secReName>Curbside Center Wheel Assembly</secReName>
+			<secReName>Curbside Rear Wheel Assembly</secReName>
+			<secReName>Streetside Rear Wheel Assembly</secReName>
+			<secReName>Streetside Center Wheel Assembly</secReName>
+			<secReName>Streetside Front Wheel Assembly</secReName>
 			<secReName>Spare Wheel Assembly</secReName>
 			<secIIID>II-5A06B610-8933-422A-8288-58DA61C917A5</secIIID>
 			<secIIID>II-8740AD77-C037-4CEC-8570-38DD70DB311E</secIIID>
@@ -8088,8 +8211,10 @@
 			<iiSMID>SM-F640921F-D8CA-41E0-93BB-A1423CE5FD05</iiSMID>
 			<iiSMID>SM-FD05024A-0164-478A-84A4-BD3347898E15</iiSMID>
 			<iiSMID>SM-622A792E-A19D-4E3E-8AAC-D267F90B6222</iiSMID>
+			<iiSMID>SM-917B6691-9980-462B-AF1B-09050FBC8117</iiSMID>
+			<iiSMID>SM-FA367CC9-38A6-4CCB-8443-26B6B3F6CC9C</iiSMID>
 		</sec>
-		<sec name="Leveling System and Components">
+		<sec name="Hitch and Stablizing System">
 			<colsingleSelection>1</colsingleSelection>
 			<colHeadOR>
 				<collName>Acceptable</collName>
@@ -8149,6 +8274,20 @@
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
 			<secRe>1</secRe>
+			<secReName>Stabilizers - Condition</secReName>
+			<secReName>Leveling System Condition</secReName>
+			<secReName>Travel Trailer Tongue Jack Condition</secReName>
+			<secReName>5th Wheel Landing Gear Condition</secReName>
+			<iiSMID>SM-A8ABB086-237A-4E8A-B57C-1BD9E103DFB8</iiSMID>
+			<iiSMID>SM-F8F156BD-CFDC-4D3A-A6CD-7712B75C52C4</iiSMID>
+			<iiSMID>SM-62194BA8-EA42-4924-80DD-2CBCB5D18D11</iiSMID>
+			<iiSMID>SM-C3790916-2709-49DE-AEA3-0D05DCB7EEFB</iiSMID>
+			<iiSMID>SM-2394BB22-AFBB-4338-A35B-4A5AF0369D91</iiSMID>
+			<iiSMID>SM-D5429F9D-4DA3-48FD-BEEA-27C10875B3CE</iiSMID>
+			<iiSMID>SM-1B3A4E71-E058-43C5-8B6E-AC6DCF3664CF</iiSMID>
+			<iiSMID>SM-28C231F6-B844-4761-A37D-76A0A0991512</iiSMID>
+			<iiSMID>SM-E80D77A8-1CF1-498D-A1E4-76A14EEA6CE6</iiSMID>
+			<iiSMID>SM-645768C9-BCE8-4D99-B674-03A2CEC086C5</iiSMID>
 			<iiSMID>SM-B6FDD307-A1B9-4B56-9FD3-ED1C3BB2B2CD</iiSMID>
 			<iiSMID>SM-D80BF92C-EA94-4F09-8FD0-73375A356FED</iiSMID>
 			<iiSMID>SM-75D06231-6383-4DC8-B76F-38FB68B23DF8</iiSMID>
@@ -8215,6 +8354,8 @@
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
 			<secRe>1</secRe>
+			<secIIID>II-37E4752D-6FEB-4540-8BD2-4EFB68AED392</secIIID>
+			<secIIID>II-14B0C574-6AE1-4555-B0FE-3FDFDE8E1016</secIIID>
 			<secIIID>II-7E96CCE8-BB56-4093-95AB-DA64392C260F</secIIID>
 			<secIIID>II-248F3CF3-7A2F-497F-839D-42206D80D033</secIIID>
 			<secIIID>II-C34710B0-5FA0-4EC3-9CC0-AF9672506A05</secIIID>
