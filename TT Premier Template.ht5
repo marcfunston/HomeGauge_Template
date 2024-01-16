@@ -2,7 +2,7 @@
 <template version="5">
 	<tCreatedBy>Marc Funston</tCreatedBy>
 	<tLastModBy>Marc Funston</tLastModBy>
-	<tLastMod>2024/01/15 20:46:23</tLastMod>
+	<tLastMod>2024/01/16 10:37:35</tLastMod>
 	<SameSummariesItemized>1</SameSummariesItemized>
 	<SingleSummarySelection>0</SingleSummarySelection>
 	<tFailMsg>Re-inspected *date*&lt;font color="#ff0000"&gt;
@@ -492,7 +492,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-0AA753AF-FA1E-481F-8881-3072EE2BC6C6">
-		<smName>Chassis and Frame - Any Visible Signs of Bent or Damage Components?</smName>
+		<smName>Frame - Any Visible Signs of Bent or Damage Components?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -2085,7 +2085,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-54A58EB2-9432-4A2F-ABA3-589AF4882B60">
-		<smName>Running Gear - Visible Signs of Scraping or Drag Damage?</smName>
+		<smName>Frame - Visible Signs of Scraping or Drag Damage?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -2434,11 +2434,23 @@
 		<smInfoName>Date</smInfoName>
 	</sm>
 	<sm id="SM-622A792E-A19D-4E3E-8AAC-D267F90B6222">
-		<smName>Front Axle Weight Rating</smName>
+		<smName>Axle(s) Condition</smName>
 		<smOpt>
-			<smVal>Listed in lbs or kg</smVal>
+			<smVal>Acceptable</smVal>
 		</smOpt>
-		<smInfoName>Weight Rating</smInfoName>
+		<smOpt>
+			<smVal>Fair</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Poor</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Not Inspected</smVal>
+		</smOpt>
+		<smOpt>
+			<smVal>Other</smVal>
+		</smOpt>
+		<smInfoName>Specify Other</smInfoName>
 	</sm>
 	<sm id="SM-62DB2DC4-D345-46FE-A88A-70CD123DFBE7">
 		<smName>Other Items - (List)</smName>
@@ -4136,7 +4148,7 @@
 		<smInfoName>Length In Feet</smInfoName>
 	</sm>
 	<sm id="SM-AAACE3E0-E713-4D05-8974-9D5015C653DB">
-		<smName>Chassis and Frame - Any Visible Signs of Excessive Wear?</smName>
+		<smName>Frame - Any Visible Signs of Excessive Wear?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4316,7 +4328,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-B4B6B6EF-13E5-4EC2-A27E-273500E0DC14">
-		<smName>Running Gear - Any Visible Signs of Damage from Tire Failure?</smName>
+		<smName>Frame - Any Visible Signs of Damage from Tire Failure?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4738,7 +4750,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-CC082DB6-B0BE-4FA7-AD6C-F4D476A3FE80">
-		<smName>Chassis and Frame - Any Visible Signs of Excess Oil Present?</smName>
+		<smName>Frame - Any Visible Signs of Excess Oil Present?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -4823,7 +4835,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-D2396CB3-4361-4554-83BE-C4B062B5F548">
-		<smName>Chassis and Frame - Any Visible Signs of Rust?</smName>
+		<smName>Frame - Any Visible Signs of Rust?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -5389,7 +5401,7 @@
 		<smInfoName>Extra Info</smInfoName>
 	</sm>
 	<sm id="SM-F640921F-D8CA-41E0-93BB-A1423CE5FD05">
-		<smName>Running Gear - Any Visible Signs of Hydraulic Hose Leaks?</smName>
+		<smName>Frame - Any Visible Signs of Hydraulic Hose Leaks?</smName>
 		<smOpt>
 			<smVal>Yes</smVal>
 		</smOpt>
@@ -5434,6 +5446,9 @@
 	</sm>
 	<sm id="SM-FD05024A-0164-478A-84A4-BD3347898E15">
 		<smName>Number of Axles</smName>
+		<smOpt>
+			<smVal>One</smVal>
+		</smOpt>
 		<smOpt>
 			<smVal>Two</smVal>
 		</smOpt>
@@ -5869,7 +5884,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-3714E042-1A91-41B2-8D23-35943E89D732">
-		<iiText>Steering  Components</iiText>
+		<iiText>Axle U-Bolt Condtion</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-373725EA-9D89-4441-9205-A8E34A2B794C">
@@ -5957,11 +5972,11 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-49179EE3-C8C2-4A80-8208-389400E0149B">
-		<iiText>Shock Absorber System Condition</iiText>
+		<iiText>Frame Condition</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-49864EDC-4462-4D31-AC27-F75ED143D360">
-		<iiText>Running Gear (Axles, Spring, Rims, other Components)</iiText>
+		<iiText>Springs and Hangers Condition</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-4B52EE5D-DE92-48B5-9A4D-FAE8CDB5B06F">
@@ -6489,10 +6504,6 @@
 		<iiText>LP Detector</iiText>
 		<iiHelp></iiHelp>
 	</ii>
-	<!--ii id="II-85293829-EA73-4F46-8CDD-DB879C599E84">
-		<iiText>Engine Compartment Cleanliness</iiText>
-		<iiHelp></iiHelp>
-	</ii-->
 	<ii id="II-8740AD77-C037-4CEC-8570-38DD70DB311E">
 		<iiText>Tire Tread Condition</iiText>
 		<iiHelp></iiHelp>
@@ -7260,7 +7271,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D11C9126-0E96-4CF5-9815-1077FE87A321">
-		<iiText>Air Horns</iiText>
+		<iiText>Brake Function</iiText>
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-D234FDBA-035B-4C77-8024-4879FDAFED1F">
@@ -7440,7 +7451,7 @@
 		<iiHelp></iiHelp>
 	</ii>
 	<ii id="II-FAD2C54D-B200-49C9-A7B4-F6FCDCB1E934">
-		<iiText>Chassis and Frame Condition</iiText>
+		<iiText>Running Gear Condition</iiText>
 		<iiHelp>Chassis and Frame Condition - The chassis is the backbone of every RV.&amp;nbsp; It is the framework that not only supports the body of your RV, but also houses the primary mechanics of your recreation vehicle, including everything from the motor itself, to the transmission and drive train, down to the wheels, axles, suspension, fuel &amp;amp; exhaust systems, and electrical wiring.
 &lt;p&gt;The inspect is to evaluate the chassis and frame from all sides of the RV and not crawling any farther than half one’s body length to view the chassis.&amp;nbsp; This is best accomplished using a foam or rubber mat, or creeper if you want, and lie on your back to evaluate the frame and chassis for:&lt;/p&gt;
 &lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Signs of rust&lt;/p&gt;
@@ -7613,74 +7624,6 @@
 			<iiSMID>SM-76D393CF-CCEB-4F2E-8214-B7A5F986B986</iiSMID>
 			<iiSMID>SM-62DB2DC4-D345-46FE-A88A-70CD123DFBE7</iiSMID>
 			<iiSMID>SM-CA137DF9-1DAD-42F3-91CC-917FE7F18C47</iiSMID>
-		</sec>
-		<sec name="Front Windshield">
-			<colsingleSelection>1</colsingleSelection>
-			<colHeadOR>
-				<collName>Acceptable</collName>
-				<colsName>A</colsName>
-				<colsendToSum>0</colsendToSum>
-				<colundoSum>0</colundoSum>
-				<colex>0</colex>
-				<colshow>1</colshow>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<colHeadOR>
-				<collName>Fair</collName>
-				<colsName>F</colsName>
-				<colsendToSum>1</colsendToSum>
-				<colundoSum>1</colundoSum>
-				<colex>0</colex>
-				<colshow>1</colshow>
-				<colsumID>SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B</colsumID>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<colHeadOR>
-				<collName>Poor</collName>
-				<colsName>P</colsName>
-				<colsendToSum>1</colsendToSum>
-				<colundoSum>1</colundoSum>
-				<colex>0</colex>
-				<colshow>1</colshow>
-				<colsumID>SUM-0AA46D99-BAEB-4E48-83DB-322BF81F6180</colsumID>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<colHeadOR>
-				<collName>Not Inspected</collName>
-				<colsName>NI</colsName>
-				<colsendToSum>1</colsendToSum>
-				<colundoSum>1</colundoSum>
-				<colex>0</colex>
-				<colshow>1</colshow>
-				<colsumID>SUM-6E7B6FF6-5227-4B95-B0E8-52255268E96B</colsumID>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<colHeadOR>
-				<collName>Not Present</collName>
-				<colsName>NP</colsName>
-				<colsendToSum>0</colsendToSum>
-				<colundoSum>0</colundoSum>
-				<colex>0</colex>
-				<colshow>1</colshow>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<colHeadOR>
-				<collName>Exclude</collName>
-				<colsName>X</colsName>
-				<colsendToSum>1</colsendToSum>
-				<colundoSum>1</colundoSum>
-				<colex>1</colex>
-				<colshow>0</colshow>
-				<colcolor>#FF0033</colcolor>
-			</colHeadOR>
-			<secRe>1</secRe>
-			<secIIID>II-C0BBC749-BED3-4653-95F0-27FAF0B5FD26</secIIID>
-			<secIIID>II-2B1FDDAD-FA52-47C1-ABED-0402979CD32B</secIIID>
-			<secIIID>II-1A7F7CBC-77E4-42B4-8C41-77D7DED807F2</secIIID>
-			<secIIID>II-3CF0D8EF-9FD1-4E96-8C1D-34FEB4017C96</secIIID>
-			<secIIID>II-71481CC9-48AC-4E04-A099-26391A067541</secIIID>
-			<secIIID>II-A3618BD8-9590-4174-9080-B21FD287B62F</secIIID>
-			<iiSMID>SM-DE9292D6-38E9-4E7A-B84D-F4B09226A00A</iiSMID>
 		</sec>
 		<sec name="Exterior Sidewalls">
 			<colsingleSelection>1</colsingleSelection>
@@ -8049,12 +7992,12 @@
 			</colHeadOR>
 			<secIntroID>C-F3A9C198-B57D-4B61-A71E-BED22DAEC662</secIntroID>
 			<secRe>7</secRe>
-			<secReName>Front Wheel Assembly - Curbside</secReName>
-			<secReName>Drive Axle Wheel Assembly - Curbside Outsideside</secReName>
-			<secReName>Drive Axle Wheel Assembly - Curbside Inside</secReName>
-			<secReName>Drive Axle Wheel Assembly - Streetside Inside</secReName>
-			<secReName>Drive Axle Wheel Assembly - Streetside Outside</secReName>
-			<secReName>Front Wheel Assembly - Streetside</secReName>
+			<secReName>Curbside - Front Wheel Assembly</secReName>
+			<secReName>Curbside - Center Wheel Assembly</secReName>
+			<secReName>Curbside - Rear Wheel Assembly</secReName>
+			<secReName>Streetside - Rear Wheel Assembly</secReName>
+			<secReName>Streetside - Center Wheel Assembly</secReName>
+			<secReName>Streetside - Front Wheel Assembly</secReName>
 			<secReName>Spare Wheel Assembly</secReName>
 			<secIIID>II-5A06B610-8933-422A-8288-58DA61C917A5</secIIID>
 			<secIIID>II-8740AD77-C037-4CEC-8570-38DD70DB311E</secIIID>
@@ -8070,7 +8013,7 @@
 			<iiSMID>SM-13942BE9-4F08-4CDF-9678-B3C30BC8C0AB</iiSMID>
 			<iiSMID>SM-20496F60-F4F9-43DF-97B4-79C46203B927</iiSMID>
 		</sec>
-		<sec name="Exterior Chassis and Undercarriage">
+		<sec name="Running Gear">
 			<colsingleSelection>1</colsingleSelection>
 			<colHeadOR>
 				<collName>Acceptable</collName>
@@ -8145,8 +8088,6 @@
 			<iiSMID>SM-F640921F-D8CA-41E0-93BB-A1423CE5FD05</iiSMID>
 			<iiSMID>SM-FD05024A-0164-478A-84A4-BD3347898E15</iiSMID>
 			<iiSMID>SM-622A792E-A19D-4E3E-8AAC-D267F90B6222</iiSMID>
-			<iiSMID>SM-917B6691-9980-462B-AF1B-09050FBC8117</iiSMID>
-			<iiSMID>SM-FA367CC9-38A6-4CCB-8443-26B6B3F6CC9C</iiSMID>
 		</sec>
 		<sec name="Leveling System and Components">
 			<colsingleSelection>1</colsingleSelection>
@@ -8208,7 +8149,6 @@
 				<colcolor>#FF0033</colcolor>
 			</colHeadOR>
 			<secRe>1</secRe>
-			<secIIID>II-4B10A6EE-B0D3-477D-B69D-A7E11BE3D124</secIIID>
 			<iiSMID>SM-B6FDD307-A1B9-4B56-9FD3-ED1C3BB2B2CD</iiSMID>
 			<iiSMID>SM-D80BF92C-EA94-4F09-8FD0-73375A356FED</iiSMID>
 			<iiSMID>SM-75D06231-6383-4DC8-B76F-38FB68B23DF8</iiSMID>
